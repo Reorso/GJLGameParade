@@ -33,14 +33,14 @@ public class Schyte : MonoBehaviour
                 // Do something with the object that was hit by the raycast.
             }
         }
-        if (lerping)
-        {
-            transform.parent.position = Vector3.Lerp(transform.parent.position, target - offset , Time.deltaTime);
-            if((transform.parent.position - (target - offset )).magnitude < 0.1)
-            {
-                anim.SetBool("Hitting", true);
-                lerping = false;
-            }
-        }
+        //if (lerping)
+        //{
+        //    transform.parent.position = Vector3.Lerp(transform.parent.position, target + offset  , Time.deltaTime);
+        //    if((transform.parent.position - (target + offs  )).magnitude < 0.1)
+        //    {
+        //        anim.SetBool("Hitting", true);
+        //        lerping = false;
+        //    }
+        //}
     }
 }
