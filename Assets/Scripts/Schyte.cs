@@ -18,7 +18,7 @@ public class Schyte : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(5))
         {
             Camera camera = Camera.main;
             RaycastHit hit;

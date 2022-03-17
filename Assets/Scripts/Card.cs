@@ -7,8 +7,8 @@ using UnityEngine.Animations;
 public class Card : MonoBehaviour
 {
     //is the card facing up?
-    bool facingUp = false;
-    Animator anim;
+    public bool facingUp = false;
+    public Animator anim;
     [SerializeField]
     GameObject graphicObj;
     [SerializeField]
@@ -25,12 +25,15 @@ public class Card : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         anim = GetComponent<Animator>();
         targetUI = GameObject.Find("TargetCards").transform;
-        initialP = transform.position;
-        initialR = transform.rotation;
+        if(initialP == null && initialR == null)
+        {
+            initialP = transform.position;
+            initialR = transform.rotation;
+        }
 
     }
 
@@ -43,6 +46,7 @@ public class Card : MonoBehaviour
                 ((transform.rotation.eulerAngles - targetR.eulerAngles).magnitude < 0.1))
             {
                 lerping = false;
+                RandomizePosition();
             }
             else
             {
@@ -65,28 +69,22 @@ public class Card : MonoBehaviour
             print(isUI);
             if (!isUI)
             {
-                LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
-                
+                ShowToCamera();
             }
             else
             {
-                LerpToPositionAndRotation(initialP,initialR);
+                BackInPlace();
             }
 
-            isUI = !isUI;
+            
         }
 
     }
 
-    public void Flip()
+    public virtual void Flip()
     {
         facingUp = !facingUp;
         anim.SetBool("NeedFlipping", facingUp);
-    }
-
-    public void Hover()
-    {
-
     }
 
     public void RandomizePosition()
@@ -96,6 +94,7 @@ public class Card : MonoBehaviour
 
     public void LerpToPositionAndRotation(Vector3 p, Quaternion r)
     {
+
         targetP = p;
         targetR = r;
         lerping = true;
@@ -103,4 +102,31 @@ public class Card : MonoBehaviour
 
     }
 
+    public virtual void ShowToCamera()
+    {
+        if(targetUI!= null)
+        {
+            
+            LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
+        }
+        else
+        {
+            targetUI = GameObject.Find("TargetCards").transform;
+            LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
+        }
+
+        isUI = true;
+    }
+   
+    public virtual void BackInPlace()
+    {
+        LerpToPositionAndRotation(initialP, initialR);
+        isUI = false;
+    } 
+
+    public void SetInitialPAndR(Vector3 ip, Quaternion rp)
+    {
+        initialP = ip;
+        initialR = rp;
+    }
 }
