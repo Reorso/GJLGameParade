@@ -145,7 +145,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8cedbb38dfb9fe3438e0e043feab32cd, type: 2}
+  - {fileID: 2100000, guid: 679ea1ac3cfaa95488972279fa3e7593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -327,9 +327,9 @@ GameObject:
   - component: {fileID: 3692338461581279726}
   - component: {fileID: 1142348925620869586}
   - component: {fileID: 459222557862910164}
-  - component: {fileID: 3237411310391250921}
+  - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EventCard
+  m_Name: EC_Character 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +384,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.78087187, y: 0.045268238, z: 0.5298109}
   m_Center: {x: 0.0027725697, y: 0.0044368804, z: -0.005251646}
---- !u!114 &3237411310391250921
+--- !u!114 &-2313070533747158448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,16 +393,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 7212457427814139539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7a2a83eafa93a64ba56b1f5bdc9bffd, type: 3}
+  m_Script: {fileID: 11500000, guid: dbacdf024357cfb4389077f2a64e0e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   facingUp: 0
   anim: {fileID: 0}
   graphicObj: {fileID: 2572496268493090062}
-  spr: {fileID: 21300000, guid: 4511625050220504d94379456b13efb4, type: 3}
-  sr: {fileID: 4945728475918579057}
+  spr: {fileID: 0}
+  sr: {fileID: 0}
+  enableFlip: 1
+  enableMovement: 1
+  gm: {fileID: 0}
   textToDisplay:
-  - Hey
-  - I'm Deth
-  - Nice to meet you!
-  display: {fileID: 0}
+  - text: Hi
+    jumpTo: -1
+    isQuestion: 0
+    answers: []
+  - text: How
+    jumpTo: -1
+    isQuestion: 0
+    answers: []
+  - text: Are You?
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Yes
+      jumpTo: 4
+      bonus: 10
+    - text: 
+      jumpTo: 4
+      bonus: -10
+  - text: Good!
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Yes
+      jumpTo: 4
+      bonus: 10
+    - text: 
+      jumpTo: 4
+      bonus: -10
+  current: 0
+  answerPicked: -1
+  characterSelected: 0
+  tb: {fileID: 0}
+  ch: {fileID: 0}
+  eventType: 0
+  bonus: 0
+  initial: Which friend will help in this event?
+  initialDone: 0
+  chName: Jhon

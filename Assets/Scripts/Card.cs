@@ -20,25 +20,27 @@ public class Card : MonoBehaviour
     Quaternion targetR,initialR;
     bool lerping = false,isUI = false;
     float starttime, smoothness = 5;
-    
+    [SerializeField]
+    public bool enableFlip = true, enableMovement = true;
+    public GameManager gm;
 
 
 
     // Start is called before the first frame update
     public virtual void Start()
     {
+        gm = FindObjectOfType<GameManager>();
         anim = GetComponent<Animator>();
         targetUI = GameObject.Find("TargetCards").transform;
-        if(initialP == null && initialR == null)
-        {
-            initialP = transform.position;
-            initialR = transform.rotation;
-        }
+        
+        initialP = transform.position;
+        initialR = transform.rotation;
+        
 
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
         if (lerping)
         {
@@ -54,37 +56,58 @@ public class Card : MonoBehaviour
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetR, (Time.time - starttime) / smoothness);
             }
         }
+        else if (isUI)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+
+                if (enableMovement)
+                {
+                    if (GetComponent<BoxCollider>().enabled)
+                    {
+                        BackInPlace();
+                    }
+                }
+            }
+        }
+        
     }
 
-    void OnMouseOver()
+    public virtual void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(2))
         {
-            Flip();
+            //Flip();
             //Vector3(0.626297474, 1.10657406, -1.18616629);
             //Vector3(1.778, 2.80699992, 0.796000004);
         }
-        if (Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(0))
         {
-            print(isUI);
-            if (!isUI)
+            if (enableMovement)
             {
-                ShowToCamera();
-            }
-            else
-            {
-                BackInPlace();
-            }
+                if (GetComponent<BoxCollider>().enabled) {
 
-            
+                    if (!isUI)
+                    {
+                        if (gm.IsUIFree())
+                        {
+                            ShowToCamera();
+                        }
+
+                    }
+                }
+            }
         }
-
     }
 
     public virtual void Flip()
     {
-        facingUp = !facingUp;
-        anim.SetBool("NeedFlipping", facingUp);
+        if (enableFlip)
+        {
+            facingUp = !facingUp;
+            anim.SetBool("NeedFlipping", facingUp);
+        }
+
     }
 
     public void RandomizePosition()
@@ -104,24 +127,24 @@ public class Card : MonoBehaviour
 
     public virtual void ShowToCamera()
     {
-        if(targetUI!= null)
-        {
-            
-            LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
-        }
-        else
+        if(targetUI== null)
         {
             targetUI = GameObject.Find("TargetCards").transform;
-            LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
         }
-
+        if (!facingUp)
+        {
+            Flip();
+        }
+        LerpToPositionAndRotation(targetUI.position, targetUI.rotation);
         isUI = true;
+        gm.SetUIFree(false);
     }
    
     public virtual void BackInPlace()
     {
         LerpToPositionAndRotation(initialP, initialR);
         isUI = false;
+        gm.SetUIFree(true);
     } 
 
     public void SetInitialPAndR(Vector3 ip, Quaternion rp)

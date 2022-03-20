@@ -1,0 +1,795 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.9f1 (921b45a28ab6) revision 9575237'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/reors/Github/UnityProjects/GJLGameParade/GJLGameParade/GJLGameParade
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+55917
+Successfully changed project path to: C:/Users/reors/Github/UnityProjects/GJLGameParade/GJLGameParade/GJLGameParade
+C:/Users/reors/Github/UnityProjects/GJLGameParade/GJLGameParade/GJLGameParade
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 69.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.9f1 (921b45a28ab6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/reors/Github/UnityProjects/GJLGameParade/GJLGameParade/GJLGameParade/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007144 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (58.3 KB). Loaded Objects now: 3585.
+Memory consumption went from 111.8 MB to 111.8 MB.
+Total: 2.979700 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.527800 ms  DeleteObjects: 0.067600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3587.
+Memory consumption went from 110.3 MB to 110.3 MB.
+Total: 2.531300 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.210400 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3589.
+Memory consumption went from 110.3 MB to 110.3 MB.
+Total: 2.598800 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.253700 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006973 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3591.
+Memory consumption went from 110.3 MB to 110.3 MB.
+Total: 2.973600 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.198300 ms MarkObjects: 2.522700 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006508 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (573ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3593.
+Memory consumption went from 110.3 MB to 110.3 MB.
+Total: 2.803500 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.156900 ms MarkObjects: 2.397200 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3595.
+Memory consumption went from 110.3 MB to 110.2 MB.
+Total: 2.761900 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.370700 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\reors\Github\UnityProjects\GJLGameParade\GJLGameParade\GJLGameParade\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3597.
+Memory consumption went from 110.3 MB to 110.2 MB.
+Total: 2.696500 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.287700 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26691.409643 seconds.
+  path: Assets/Prefabs/CharacterCard.prefab
+  artifactKey: Guid(d75ae23549d44e240be1cf5983270877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterCard.prefab using Guid(d75ae23549d44e240be1cf5983270877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0202a2e8f4288fd9899f22c04a39ab62') in 0.171833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.181199 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 1.prefab
+  artifactKey: Guid(b6b2891fe6144d24aa41c589e45e9169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 1.prefab using Guid(b6b2891fe6144d24aa41c589e45e9169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a273a750fbb391a6448bca3d2f3a9370') in 0.012934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491594 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 2.prefab
+  artifactKey: Guid(a9b9035fb1bb7864a883ba41f9ad28ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 2.prefab using Guid(a9b9035fb1bb7864a883ba41f9ad28ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5321dc2fc3385c76f90c669ba37c29bf') in 0.014274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.930120 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 3.prefab
+  artifactKey: Guid(f61c23805e284e34781e8c16233cf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 3.prefab using Guid(f61c23805e284e34781e8c16233cf3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a0902aa642da0d3bf82583d4bf20f') in 0.014486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696472 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 4.prefab
+  artifactKey: Guid(60335069cdb385941b0e50492de9d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 4.prefab using Guid(60335069cdb385941b0e50492de9d60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eada17e230b8618d914c87bcc67db7') in 0.012341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.235490 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 5.prefab
+  artifactKey: Guid(d1523ef1417774a41a1d0c957046c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 5.prefab using Guid(d1523ef1417774a41a1d0c957046c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c062d273d4df238dea0c322ff74402') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.111073 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Character 6.prefab
+  artifactKey: Guid(d76abdf1ccac83a42a284a8c3a50b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Character 6.prefab using Guid(d76abdf1ccac83a42a284a8c3a50b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6301d7e95a8415ca78cf6d889f872b') in 0.012386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.480624 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd501baaa80037dff1d9fe26c76afec') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.174961 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41889761e07efb7a3f5ae1bf10c9bba') in 0.028718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.364286 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6143c6ccd8628376d796cb0b4db79e') in 0.014181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.802374 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b60902b8ec3f53041567c563ea90f1c') in 0.019442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.770908 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8befd0cd31c050274654fc5f611f251f') in 0.014672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.503465 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd3bf9c4a0b77306c8354b677274532') in 0.015276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.065241 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14f2ffa45e2abdffb92ec2d5e9f2d8') in 0.019771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.644873 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe33f9fa228e7bd845ef91a7884666e8') in 0.014389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.407211 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63077d24e26bb6c780b428f99e9e487e') in 0.026333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767795 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af1be1ebafcbeeae692afcde6898063') in 0.035662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.805239 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2825b1197626fa20e70f4736f5190b1a') in 0.011566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.371068 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86c45aeed6a456b981703fcd0860115') in 0.014699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.610176 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965e0981bdca3e0dad66d4ce568da98') in 0.013355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.580877 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc8099444e0244bf87fdc69707f6c1') in 0.018254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.618440 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0444bab55b44309e1dab602bb71d861') in 0.014677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.178643 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3d85dfe04e02b064826cd7ddf8b24e') in 0.020283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.950045 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85371a325f614f92eb2377d040bf594d') in 0.018804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.075556 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c373c46beb4799dbfa19318de2c936a') in 0.016079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.784828 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f7c3f3ac8bd00b9e39e2ae27dfaeeb') in 0.011930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.390038 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221fcbbda26be4deee753e414bec746a') in 0.017888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410585 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952debe2d2b21a18614a0c0771d3896f') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.774402 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dd23131d7750721d363c8484dfd130') in 0.015040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.784433 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f642bd225caeb45b08c59b383d6df2') in 0.015255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.015498 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37120039d58efee90e12dea4be33e4a') in 0.015212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.190376 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86265438dfe06c65e80aac0caaffd4') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.008502 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dadbcb84b309b29b4c41ab9d2906171') in 0.015160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.043360 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b81871285768c65d2332f01e24952a') in 0.014079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.523376 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf39fd146e475249d9248ab3ec427c') in 0.012740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.604006 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78c7b83bcbbb611effdba1a0c1fda7f') in 0.015691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.685868 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0030d3fc7e95cf8d32baa7b42ae0198e') in 0.014438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.429327 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc33f268afedde4daf71ba89b55cbae9') in 0.014788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571160 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c28d4b617b33531ba7720cbc4455c4') in 0.011730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.289736 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4413ee78adc77a5ee5f420c82338f14a') in 0.015269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778901 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b566b5e3ef5b92b3db7caabb68fe5864') in 0.015490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.119975 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94177884fac5cbaaaf85168cb787c35a') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.130267 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f34bbb0fa329ae3755a2b18dc3fcfe') in 0.014625 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.1 KB). Loaded Objects now: 3606.
+Memory consumption went from 62.4 MB to 62.4 MB.
+Total: 4.295300 ms (FindLiveObjects: 0.407400 ms CreateObjectMapping: 0.131400 ms MarkObjects: 3.710300 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1123.256289 seconds.
+  path: Assets/Prefabs/CharacterEvents/EC_Jesse.prefab
+  artifactKey: Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CharacterEvents/EC_Jesse.prefab using Guid(772f08a3268079242ab70de3d94b417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb446aea6e9bbd6e691171c06d08e6d6') in 0.037185 seconds 
