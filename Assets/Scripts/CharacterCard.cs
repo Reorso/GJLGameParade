@@ -7,7 +7,7 @@ public class CharacterCard : Card
 {
     public string name;
     public int agility = 0, strenght = 0, intelligence = 0, wisdom = 0, hp = 5;
-    [SerializeField]TextMeshPro AGI, STR, INT, WIS, HP;
+    [SerializeField]TextMeshPro AGI, STR, INT, WIS, HP, NAME;
     bool needSelection = false;
     bool characterSelected = false;
     bool hovering = false;
@@ -20,6 +20,7 @@ public class CharacterCard : Card
         //GetComponent<Card>().Flip();
         UpdateValues();
         HP.text = "HP: " + hp.ToString();
+        NAME.text = name;
     }
 
     // Update is called once per frame

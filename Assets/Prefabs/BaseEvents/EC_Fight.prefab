@@ -183,7 +183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3579404366546967868
 Transform:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
     answers: []
   - text: 'Do you meet it head on, or attempt to dodge? '
     jumpTo: -1
-    isQuestion: 0
+    isQuestion: 1
     answers:
     - text: Head on
       jumpTo: 3

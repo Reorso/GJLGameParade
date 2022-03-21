@@ -183,7 +183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3579404366546967868
 Transform:
   m_ObjectHideFlags: 0
@@ -403,6 +403,7 @@ MonoBehaviour:
   sr: {fileID: 4945728475918579057}
   enableFlip: 1
   enableMovement: 1
+  gm: {fileID: 0}
   textToDisplay:
   - text: You just finished to work on a new feature and a question comes to your
       mind
@@ -415,10 +416,13 @@ MonoBehaviour:
     answers:
     - text: Yes! Of course! I can do it!
       jumpTo: 2
+      bonus: 1
     - text: Ehm.... Maybe?
       jumpTo: 4
+      bonus: 1
     - text: No... I'm slowly falling in a spiral of madness...
       jumpTo: 3
+      bonus: 1
   - text: 'As you say it, a new bug comes out and you desperation starts to kick
       in. The questions echo in your mind again:'
     jumpTo: 1
@@ -440,5 +444,12 @@ MonoBehaviour:
     jumpTo: -1
     isQuestion: 0
     answers: []
+  current: 0
   answerPicked: -1
+  characterSelected: 0
   tb: {fileID: 0}
+  ch: {fileID: 0}
+  eventType: 0
+  bonus: 0
+  initial: Which friend will help in this event?
+  initialDone: 0

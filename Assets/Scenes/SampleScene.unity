@@ -6443,6 +6443,9 @@ MonoBehaviour:
   t: {fileID: 2040465202}
   deathCount: 0
   deck: {fileID: 111260058}
+  win: {fileID: 0}
+  lose: {fileID: 0}
+  winscreen: {fileID: 0}
 --- !u!4 &1682410327
 Transform:
   m_ObjectHideFlags: 0
@@ -7666,7 +7669,7 @@ PrefabInstance:
     - target: {fileID: 2609455198039107354, guid: d75ae23549d44e240be1cf5983270877,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.40799972
+      value: 0.437
       objectReference: {fileID: 0}
     - target: {fileID: 2609455198039107354, guid: d75ae23549d44e240be1cf5983270877,
         type: 3}
@@ -7676,7 +7679,7 @@ PrefabInstance:
     - target: {fileID: 2609455198039107354, guid: d75ae23549d44e240be1cf5983270877,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.0490001
+      value: 0.881
       objectReference: {fileID: 0}
     - target: {fileID: 2609455198039107354, guid: d75ae23549d44e240be1cf5983270877,
         type: 3}
@@ -7801,7 +7804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.019607844}
+  m_Color: {r: 0.9056604, g: 0.8857785, b: 0.8415806, a: 0.29803923}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
