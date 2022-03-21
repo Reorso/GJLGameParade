@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: 3237411310391250921}
   m_Layer: 0
-  m_Name: EC_Base
+  m_Name: EC_Scavenging
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -403,42 +403,42 @@ MonoBehaviour:
   sr: {fileID: 4945728475918579057}
   enableFlip: 1
   enableMovement: 1
+  gm: {fileID: 0}
   textToDisplay:
-  - text: You just finished to work on a new feature and a question comes to your
-      mind
-    jumpTo: -1
+  - text: A warm an thick mist starts covering you, and you barely see some kind
+      of ruins rising around you.
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: Will you be able to complete this gamejam?
+  - text: You are located in some ruins of an ancient house. You can feel your thirst
+      and hunger grow. You start going around to see if you can find something to
+      eat or drink. You find a bush of yellow berries next to a mossy rock, with
+      what look like bugs living underneath.
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes! Of course! I can do it!
+    - text: Eat the suspisious berries
       jumpTo: 2
-    - text: Ehm.... Maybe?
-      jumpTo: 4
-    - text: No... I'm slowly falling in a spiral of madness...
+      bonus: -3
+    - text: Have a go at the bugs
       jumpTo: 3
-  - text: 'As you say it, a new bug comes out and you desperation starts to kick
-      in. The questions echo in your mind again:'
-    jumpTo: 1
+      bonus: 3
+  - text: You devour the berries and they have a nice sweet taste, wich turns in
+      a bitter aftertaste. After 10 minutes, you start puking.
+    jumpTo: 10
     isQuestion: 0
     answers: []
-  - text: The realization leaves you discouraged. But there's no time for that. You
-      got a game to finish.
-    jumpTo: 5
+  - text: Reluctantly, you lift the rock and start eating some larvae. The taste
+      is bland and the moving doesn't help, but after a good number you feel satisfied.
+    jumpTo: 10
     isQuestion: 0
     answers: []
-  - text: 'You don''t know? Do you know anything? Do you know how to finish the game?
-      <br> This made you realize how little you know about reality, and after wandering
-      in existential questions for a couple of moments, the question echo in your
-      mind once again:'
-    jumpTo: 1
-    isQuestion: 0
-    answers: []
-  - text: Now shut up and work
-    jumpTo: -1
-    isQuestion: 0
-    answers: []
+  current: 0
   answerPicked: -1
+  characterSelected: 0
   tb: {fileID: 0}
+  ch: {fileID: 0}
+  eventType: 3
+  bonus: 0
+  initial: Which friend will help in this event?
+  initialDone: 0

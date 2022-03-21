@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public int deathCount = 0;
     [SerializeField]GameObject deck;
     bool uiFree = true;
+    [SerializeField]GameObject win, lose;
+    [SerializeField] TextMeshProUGUI winscreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,12 +61,16 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
+        deck.SetActive(false);
+        winscreen.text += ""+deathCount ;
+        win.SetActive(true);
 
     }
 
     public void Lose()
     {
-
+        deck.SetActive(false);
+        lose.SetActive(true);
     }
 
     public void StartGame()

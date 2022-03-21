@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EC_Character 5
+  m_Name: EC_Asif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,34 +405,89 @@ MonoBehaviour:
   enableMovement: 1
   gm: {fileID: 0}
   textToDisplay:
-  - text: Hi
-    jumpTo: -1
+  - text: 'The Promotion: Asif '
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: How
-    jumpTo: -1
-    isQuestion: 0
-    answers: []
-  - text: Are You?
+  - text: 'You and your friend Asif are aiming for the same promotion at work. You
+      are confident in your ability to do the job but Asif is friendlier with the
+      bosses. You know he has some insecurities about his confidence and skills in
+      this job '
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
-      jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
-  - text: Good!
+    - text: Cause doubt
+      jumpTo: 2
+      bonus: -1
+    - text: 'Wish luck '
+      jumpTo: 3
+      bonus: 1
+  - text: "You tell him that you know the competition for the job is fierce and that
+      the worst thing to do would be to make a fool of yourself, that might follow
+      you in the company. If he doesn\u2019t feel confident this time around maybe
+      he should wait until next time. <br>Asif takes your advice into consideration
+      but still goes ahead with the interview, he gets the job and messages your
+      friend group chat. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
+    - text: Congratulate Asif
       jumpTo: 4
-      bonus: 10
-    - text: 
+      bonus: 1
+    - text: 'Ignore the message '
+      jumpTo: 5
+      bonus: -1
+  - text: "You wish him luck. You don\u2019t think he will get the job anyway as
+      he has a habit of being nervous especially in interviews. <br> Asif thanks
+      you. He gets the job and messages your friend group chat. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Congratulate Asif
       jumpTo: 4
-      bonus: -10
+      bonus: 1
+    - text: 'Ignore the message '
+      jumpTo: 5
+      bonus: -1
+  - text: 'You congratulate him. You feel a little bitter about it, especially when
+      you find out that the final two being considered were you and him. '
+    jumpTo: 6
+    isQuestion: 0
+    answers: []
+  - text: 'You say nothing, the others in the group congratulate him more than enough.
+      You feel more bitter when you find out that the final two being considered
+      were you and him. '
+    jumpTo: 6
+    isQuestion: 0
+    answers: []
+  - text: 'Asif talks to you about feeling a little overwhelmed with his new responsibilities.
+      The previous manager had left things a total mess, so he was already having
+      to put out fires left behind from day one   He is doubting his ability and
+      asks you what you think he should do. '
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Suggest maybe stepping down
+      jumpTo: 7
+      bonus: -1
+    - text: Push him to continue
+      jumpTo: 8
+      bonus: 1
+  - text: "You suggest to him that perhaps he should step down if he feels like he
+      can\u2019t do it. No point stressing in him stressing out to the point of making
+      himself sick.   He steps down, you get the job. The bosses aren\u2019t particularly
+      happy with how unreliable Asif proved to be. He suffers at work. It's your
+      fault. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
+  - text: "Throwing your own bitterness to the side you tell him that he\u2019s more
+      than capable of doing the job and if he needs any help or support just to let
+      you know. You might not have gotten the job this time but that doesn\u2019t
+      mean you want him to fail at it. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
   current: 0
   answerPicked: -1
   characterSelected: 0
@@ -442,4 +497,4 @@ MonoBehaviour:
   bonus: 0
   initial: Which friend will help in this event?
   initialDone: 0
-  chName: Jhon
+  chName: Asif

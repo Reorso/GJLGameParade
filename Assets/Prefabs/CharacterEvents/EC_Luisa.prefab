@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EC_Character 2
+  m_Name: EC_Luisa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,34 +405,78 @@ MonoBehaviour:
   enableMovement: 1
   gm: {fileID: 0}
   textToDisplay:
-  - text: Hi
-    jumpTo: -1
+  - text: 'The Gamble: Luisa '
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: How
-    jumpTo: -1
-    isQuestion: 0
-    answers: []
-  - text: Are You?
+  - text: "You approach Luisa with the idea of investing in a new business proposal
+      you have, you claim it\u2019s a solid way to make money and that you have everything
+      planned out. You know she was looking into investments before so this is the
+      perfect opportunity. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
-      jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
-  - text: Good!
+    - text: Tell her the pros
+      jumpTo: 2
+      bonus: 0
+    - text: Tell her the cons
+      jumpTo: 3
+      bonus: 0
+  - text: "You tell her all the positives of this plan and how much money could be
+      made, you say it\u2019s fool proof and there\u2019s no way it could fail. Luisa
+      trusts you. "
+    jumpTo: 4
+    isQuestion: 0
+    answers: []
+  - text: 'You are very open about the risks of any investment but assure her that
+      you have planned this all out properly. Luisa is grateful for you being honest
+      and trusts you  '
+    jumpTo: 4
+    isQuestion: 0
+    answers: []
+  - text: "Issues arise in the first few months, the business isn\u2019t taking off
+      as well as it should be, Luisa asks how everything is going. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
-      jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
+    - text: Give her an objective update
+      jumpTo: 5
+      bonus: 1
+    - text: 'Reassure '
+      jumpTo: 6
+      bonus: -1
+  - text: 'You let her know that things aren''t going as smoothly as they could be
+      right now but have a plan to get it back on track. '
+    jumpTo: 7
+    isQuestion: 0
+    answers: []
+  - text: "You tell her everything is fine and on track. You plan to fix this anyway
+      so it\u2019s just a white lie."
+    jumpTo: 7
+    isQuestion: 0
+    answers: []
+  - text: "It doesn\u2019t get back on track, it gets worse "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Admit fault
+      jumpTo: 8
+      bonus: 1
+    - text: "Tell her that\u2019s the nature of business "
+      jumpTo: 9
+      bonus: -1
+  - text: 'You admit to Luisa that the business was a failure, and that any money
+      invested was lost now but you promise to pay her back no matter how long it
+      takes. '
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
+  - text: "You tell Luisa that unfortunately any investment is a risk and this one
+      just didn\u2019t pay off. Luisa is distraught, most of her savings went into
+      your idea. You tell her that she knew the risks. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
   current: 0
   answerPicked: -1
   characterSelected: 0
@@ -442,4 +486,4 @@ MonoBehaviour:
   bonus: 0
   initial: Which friend will help in this event?
   initialDone: 0
-  chName: Jhon
+  chName: Luisa

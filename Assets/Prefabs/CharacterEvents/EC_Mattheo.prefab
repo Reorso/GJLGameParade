@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EC_Character 6
+  m_Name: EC_Mattheo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,34 +405,120 @@ MonoBehaviour:
   enableMovement: 1
   gm: {fileID: 0}
   textToDisplay:
-  - text: Hi
-    jumpTo: -1
+  - text: 'The Fight: Mattheo '
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: How
-    jumpTo: -1
+  - text: "This place was familiar to you. An old dive bar you and Mattheo used to
+      visit. The floors were sticky, the clientele too but the drink was cheap, so
+      you didn\u2019t care. You don\u2019t think you remember this particular night,
+      they all sort of blend into each other once you have enough of them...What
+      about this night was worth this trip down memory lane? "
+    jumpTo: 2
     isQuestion: 0
     answers: []
-  - text: Are You?
+  - text: "Everything about the bar was loud tonight, the music, the people, even
+      the noise of the arcade machine in the corner seemed to be hellbent on irritating
+      you. This week had been awful, work sucked, and Tasha was arguing with you
+      over something stupid again, Mattheo had brought you tonight to try and cheer
+      you up...it didn\u2019t seem to be working. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
+    - text: Get another drink
+      jumpTo: 3
+      bonus: -1
+    - text: Turn and talk to Mattheo
       jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
-  - text: Good!
+      bonus: 1
+    - text: Turn and talk to Mattheo
+      jumpTo: 5
+      bonus: 1
+  - text: "You head to the bar, not caring if Mattheo followed, you needed a drink
+      to deal with this place.   \u201CThe week was that bad huh?\u201D   \u201CWhat
+      do you think?\u201D Your tone wasn\u2019t friendly, everything about this place
+      was getting on your nerves, even Mattheo.   Drink in hand you turn away from
+      the bar when suddenly you stumble back as someone knocks heavily into your
+      shoulder, your drink spills over you. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
-      jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
+    - text: Ignore
+      jumpTo: 5
+      bonus: 1
+    - text: Confront
+      jumpTo: 6
+      bonus: -1
+  - text: "\u201CHas this place always been so loud or am I just in a crappy mood
+      right now?\u201D  Mattheo laughs \u201Chonestly, it\u2019s as loud and obnoxious
+      as it usually is, which normally you enjoy so I guess this week's been worse
+      than usual?\u201D   \u201Cyeah, I guess, I\u2019m gonna get another drink you
+      coming?\u201D You make your way over to the bar, Mattheo just behind you when
+      suddenly you stumble back as someone knocks heavily into your shoulder. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Ignore
+      jumpTo: 5
+      bonus: 1
+    - text: Confront
+      jumpTo: 6
+      bonus: -1
+  - text: "Well, this was just the perfect end to a terrible week, but you continue
+      on your way. If you started a fight with every drunk that stumbled into you
+      in this place you\u2019d have been barred a long time ago.   This just wasn\u2019t
+      your night though, as a hand grabs your shoulder and drags you around to face
+      the jackass that just shoulder checked you.   \u201CWatch where the hell you\u2019re
+      going!\u201D you wipe your face to get rid of the spit, The guy is in your
+      face and you\u2019re starting to get really pissed off about this whole evening. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Punch him
+      jumpTo: 7
+      bonus: 1
+    - text: Walk Away
+      jumpTo: 8
+      bonus: -1
+  - text: "\u201CSeriously? Watch where the hell you\u2019re going!\u201D You round
+      on the guy who just shoulder checked you. He looks drunker than you but itching
+      for a fight if the way he immediately gets up in your face is anything to go
+      by.    \u201CThe hell you just say to me?\u201D He\u2019s poking you in the
+      chest now, pushing you to back off. Honestly, he might not be the only person
+      looking for a fight. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Punch him
+      jumpTo: 7
+      bonus: 1
+    - text: Walk Away
+      jumpTo: 9
+      bonus: -1
+  - text: "You swing for his face, there\u2019s enough drink in you to make this
+      a bad idea but one you are happy to continue. He takes it on the chin, it didn\u2019t
+      seem to do very much but make him angrier.   He swings for you, slow enough
+      that you can duck out the way..."
+    jumpTo: 8
+    isQuestion: 0
+    answers: []
+  - text: "Mattheo wasn\u2019t quite so lucky. It\u2019s like slow motion watching
+      him fall back, his head connecting with the table behind bringing all the drinks
+      down with him. The bar\u2019s dark enough that it's hard to tell if the spreading
+      puddle around his head is alcohol or blood. You remember what night this was. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
+  - text: "The urge to hit him becomes almost overwhelming, but you manage to rein
+      it in. You turn to Mattheo and gesture towards the doors.    \u201CI can\u2019t
+      be bothered dealing with this tonight, I think it\u2019s time to go home\u201D
+      Mattheo looks shocked that you held back, maybe a little proud.   \u201CYeah,
+      you\u2019re right, maybe not the night for this.\u201D He slings his arm over
+      your shoulder and leads you towards the exit. The night ends without incident,
+      you wonder what it is your forgetting. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
   current: 0
   answerPicked: -1
   characterSelected: 0
@@ -442,4 +528,4 @@ MonoBehaviour:
   bonus: 0
   initial: Which friend will help in this event?
   initialDone: 0
-  chName: Jhon
+  chName: Mattheo

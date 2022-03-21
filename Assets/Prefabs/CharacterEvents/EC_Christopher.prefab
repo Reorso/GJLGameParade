@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EC_Character 4
+  m_Name: EC_Christopher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,16 +405,25 @@ MonoBehaviour:
   enableMovement: 1
   gm: {fileID: 0}
   textToDisplay:
-  - text: Hi
-    jumpTo: -1
+  - text: 'The Loan: Christopher '
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: How
-    jumpTo: -1
+  - text: 'This office was nothing impressive. A single desk in the middle of the
+      room behind which sat a larger man mopping his brow with a handkerchief. An
+      ancient fan turned lazily in the corner, shifting the hot air around the room.
+      The business cards on edge of the desk confirmed your suspicion of what this
+      memory was... '
+    jumpTo: 2
     isQuestion: 0
     answers: []
-  - text: Are You?
-    jumpTo: -1
+  - text: "Lately it seemed as if anything that could go wrong would go wrong. If
+      it wasn\u2019t getting your hours cut at work, it was your piece of crap car
+      finally kicking the bucket. With the money you were out for the missing hours
+      and the cost of replacing the sorely needed vehicle, money this month was getting
+      a little tight and at this rate affording your half of the bills was starting
+      to look like a concern. "
+    jumpTo: 3
     isQuestion: 1
     answers:
     - text: Yes
@@ -423,16 +432,106 @@ MonoBehaviour:
     - text: 
       jumpTo: 4
       bonus: -10
-  - text: Good!
+  - text: "You couldn\u2019t ask your parents for money; your dad would hold that
+      over you until hell froze over and going begging to your roommate was pathetic.
+      So here you were, taking a loan from a man that could have made a killing as
+      a used car salesman. The guy offers you a choice, What do you want to offer
+      as collateral? "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Yes
+    - text: Apartment
       jumpTo: 4
-      bonus: 10
-    - text: 
-      jumpTo: 4
-      bonus: -10
+      bonus: -1
+    - text: Car
+      jumpTo: 6
+      bonus: 1
+  - text: "You thought that paying back the loan wasn\u2019t going to be a problem
+      and besides the apartment didn\u2019t even belong to you so they wouldn\u2019t
+      actually be able to take it even if you did fall a little behind in payments... "
+    jumpTo: 5
+    isQuestion: 0
+    answers: []
+  - text: "The threatening messages and phone calls, however, made you rethink that
+      theory. You thought paying it back would be fine, it had just been a rough
+      month but that rough month kept going. At first it was just simple reminders
+      about the payment schedule, then came the threats and demands for repayment
+      or else the collateral. The apartment belonged to Christopher, they couldn\u2019t
+      actually take it. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Ignore the calls
+      jumpTo: 8
+      bonus: -1
+    - text: Answer the calls
+      jumpTo: 9
+      bonus: 1
+  - text: "You thought that paying back the loan wasn\u2019t going to be a problem,
+      you would be able to keep up with it no problem. Your car was gonna be just
+      fine...   The threatening messages and phone calls, however, made you rethink
+      that theory."
+    jumpTo: -1
+    isQuestion: 0
+    answers: []
+  - text: " You thought paying it back would be fine, it had just been a rough month
+      but that rough month kept going. At first it was just simple reminders about
+      the payment schedule, then came the threats and demands for repayment or else
+      the collateral. You needed that car you couldn\u2019t afford to let them take
+      it. "
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Ignore the calls
+      jumpTo: 8
+      bonus: -1
+    - text: Answer the calls
+      jumpTo: 9
+      bonus: 1
+  - text: "You ignored the calls, the messages got worse. The threats bordered on
+      violence instead of just repossession. This was getting worse by the day, and
+      you still didn\u2019t have the money."
+    jumpTo: 10
+    isQuestion: 0
+    answers: []
+  - text: "Answering the call hadn\u2019t helped much. They were angry, that much
+      was obvious, and they had given you a deadline for repayment or else the repo
+      men would be knocking on your door. This was getting worse by the day, and
+      you still didn\u2019t have the money."
+    jumpTo: 10
+    isQuestion: 0
+    answers: []
+  - text: 'Christopher still knew nothing about the loans, you had lied about getting
+      the money from your parents. Maybe he should know, maybe he could help you
+      figure things out. '
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: 'Tell Christopher '
+      jumpTo: 11
+      bonus: 1
+    - text: Keep quiet
+      jumpTo: 12
+      bonus: -1
+  - text: "Chris wasn\u2019t exactly happy with you when you told him what you had
+      done. He was madder that you hadn\u2019t just come to him in the first place.   
+      \u201CYou know I would have fronted you the money if you needed it, and now
+      it\u2019s gotten way out of control\u201D The stress on his face was clear
+      to see \u201C...but it isn\u2019t impossible to fix I guess, I\u2019ll pay
+      them back for you, you\u2019re gonna owe me for life man.\u201D  <br><br> The
+      situation was somehow resolved more quietly than you expected. "
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
+  - text: 'It had been a mistake. The apartment was in pieces, shattered glass on
+      the floor and belongings thrown everywhere in an attempt to locate anything
+      of value. The tv was gone, the fancy watch your father had bought you for graduation
+      too. Chris was still on the floor where they left, curled up around the knee
+      they had kicked in when Chris tried to stop them.<br><br> This was a mess,
+      and it was all your fault. '
+    jumpTo: 30
+    isQuestion: 0
+    answers: []
   current: 0
   answerPicked: -1
   characterSelected: 0
@@ -442,4 +541,4 @@ MonoBehaviour:
   bonus: 0
   initial: Which friend will help in this event?
   initialDone: 0
-  chName: Jhon
+  chName: Christopher

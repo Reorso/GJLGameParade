@@ -60,17 +60,19 @@ public class CardEvent : Card
         }
         else
         {
-            if (answerPicked >= 0)
+            if (!done)
             {
-                bonus += textToDisplay[current - 1].answers[answerPicked].bonus;
-                current = textToDisplay[current - 1].answers[answerPicked].jumpTo;
-                answerPicked = -1;
+                if (answerPicked >= 0)
+                {
+                    bonus += textToDisplay[current - 1].answers[answerPicked].bonus;
+                    current = textToDisplay[current - 1].answers[answerPicked].jumpTo;
+                    answerPicked = -1;
+                }
+                else if (textToDisplay[current - 1].jumpTo >= 1)
+                {
+                    current = textToDisplay[current - 1].jumpTo;
+                }
             }
-            else if (textToDisplay[current - 1].jumpTo >= 1)
-            {
-                current = textToDisplay[current - 1].jumpTo;
-            }
-
 
             if (current < textToDisplay.Count)
             {

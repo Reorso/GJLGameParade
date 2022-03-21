@@ -145,7 +145,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 679ea1ac3cfaa95488972279fa3e7593, type: 2}
+  - {fileID: 2100000, guid: 8cedbb38dfb9fe3438e0e043feab32cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -327,9 +327,9 @@ GameObject:
   - component: {fileID: 3692338461581279726}
   - component: {fileID: 1142348925620869586}
   - component: {fileID: 459222557862910164}
-  - component: {fileID: -2313070533747158448}
+  - component: {fileID: 3237411310391250921}
   m_Layer: 0
-  m_Name: EC_Jesse
+  m_Name: EC_Base 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +384,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.78087187, y: 0.045268238, z: 0.5298109}
   m_Center: {x: 0.0027725697, y: 0.0044368804, z: -0.005251646}
---- !u!114 &-2313070533747158448
+--- !u!114 &3237411310391250921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,138 +393,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 7212457427814139539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbacdf024357cfb4389077f2a64e0e09, type: 3}
+  m_Script: {fileID: 11500000, guid: b7a2a83eafa93a64ba56b1f5bdc9bffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   facingUp: 0
   anim: {fileID: 0}
   graphicObj: {fileID: 2572496268493090062}
-  spr: {fileID: 0}
-  sr: {fileID: 0}
+  spr: {fileID: 21300000, guid: 4511625050220504d94379456b13efb4, type: 3}
+  sr: {fileID: 4945728475918579057}
   enableFlip: 1
   enableMovement: 1
-  gm: {fileID: 0}
   textToDisplay:
-  - text: 'The Drunk: Jesse'
+  - text: You just finished to work on a new feature and a question comes to your
+      mind
+    jumpTo: -1
+    isQuestion: 0
+    answers: []
+  - text: Will you be able to complete this gamejam?
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: Yes! Of course! I can do it!
+      jumpTo: 2
+    - text: Ehm.... Maybe?
+      jumpTo: 4
+    - text: No... I'm slowly falling in a spiral of madness...
+      jumpTo: 3
+  - text: 'As you say it, a new bug comes out and you desperation starts to kick
+      in. The questions echo in your mind again:'
     jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: You could feel the music in your chest, The strobing lights adding a frantic
-      quality to the dancing around you.
-    jumpTo: 2
+  - text: The realization leaves you discouraged. But there's no time for that. You
+      got a game to finish.
+    jumpTo: 5
     isQuestion: 0
     answers: []
-  - text: 'The crowd was crushing in on all sides but a hand around your wrist was
-      pulling you steadily towards the bar. This place was an old haunt, a regular
-      outing for you and your friends. '
-    jumpTo: 3
+  - text: 'You don''t know? Do you know anything? Do you know how to finish the game?
+      <br> This made you realize how little you know about reality, and after wandering
+      in existential questions for a couple of moments, the question echo in your
+      mind once again:'
+    jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: The drinks were flowing, and the dancing grew more uninhibited as the night
-      wore on. You were buzzed, happily on your way to drunk and Jesse seemed determined
-      to keep up with you.
-    jumpTo: 4
-    isQuestion: 0
-    answers: []
-  - text: 'Tasha as per usual was posted up keeping an eye on everyone. You wished
-      she would let loose once in a while. '
+  - text: Now shut up and work
     jumpTo: -1
-    isQuestion: 1
-    answers:
-    - text: Get more drinks
-      jumpTo: 5
-      bonus: -1
-    - text: Hit the dance floor
-      jumpTo: 7
-      bonus: 1
-  - text: "You struggle your way to the bar, Jesse not tagging along not far behind.  
-      \u201CSame as last time?\u201D You lean into Jesse, shouting to be heard over
-      the music. They nod their head so vigorously they almost start to resemble
-      a bobblehead doll."
-    jumpTo: 6
     isQuestion: 0
     answers: []
-  - text: They nod their head so vigorously they almost start to resemble a bobblehead
-      doll. You begin to wonder if Jesse might just be a little more drunk than you
-      first thought.
-    jumpTo: 8
-    isQuestion: 0
-    answers: []
-  - text: 'You venture out onto the dance floor, the rest of the group following
-      the path you make. The DJ is good tonight, the music makes you want to move. '
-    jumpTo: 8
-    isQuestion: 0
-    answers: []
-  - text: "There\u2019s a good buzz in the group. You\u2019re here to have fun tonight.  
-      \u201CHey, we should do some shots!\u201D "
-    jumpTo: -1
-    isQuestion: 1
-    answers:
-    - text: Order shots
-      jumpTo: 9
-      bonus: -1
-    - text: Stick to regular drinks
-      jumpTo: 11
-      bonus: 1
-  - text: Shots seemed like the best way to keep the night going. You signal the
-      bar staff for a couple rounds of shots. A few of the others decline, Tasha
-      sends you a look of disapproval which you ignore.
-    jumpTo: 10
-    isQuestion: 0
-    answers: []
-  - text: 'You manage to convince Jesse to help you finish the drinks off. Jesse
-      might be swaying now. '
-    jumpTo: 12
-    isQuestion: 0
-    answers: []
-  - text: "Tasha sends you a look of disapproval, some of the others in the group
-      decline the offer.   \u201CFine just normal drinks I guess.\u201D You order
-      for those wanting in on this round. Jesse begins to lean a little against the
-      bar to keep their balance. "
-    jumpTo: 12
-    isQuestion: 0
-    answers: []
-  - text: "\u201CMaybe it\u2019s time to lay off the drink for a bit, Jesse should
-      get some water\u201D Tasha always has to be the voice of reason, it can get
-      really annoying at times. "
-    jumpTo: -1
-    isQuestion: 1
-    answers:
-    - text: Encourage Jesse
-      jumpTo: 13
-      bonus: -1
-    - text: Get them water
-      jumpTo: 15
-      bonus: 1
-  - text: "\u201CDon\u2019t be such a buzzkill, Jesse\u2019s fine and having fun\u201D
-      You order another drink for them. As the night goes on you keep ordering and
-      Jesse gets more and more drunk with your encouragement. "
-    jumpTo: 14
-    isQuestion: 0
-    answers: []
-  - text: "The blue flashing lights of the ambulance were almost blinding as you
-      watched them load Jesse into the back. You can feel Tasha glaring at you, she\u2019s
-      right to be angry, you helped make this happen. You kept getting Jesse to drink
-      long after they should have stopped. Then you found them passed out in the
-      bathroom. Jesse nearly died tonight, and you were so drunk you barely remembered
-      what happened. "
-    jumpTo: 20
-    isQuestion: 0
-    answers: []
-  - text: "As annoying as Tasha\u2019s mothering could be, you figured she was probably
-      right in this case. So you ordered water for Jesse in the hopes of sobering
-      them up a little bit. The night continued, everyone had a pleasant buzz and
-      didn\u2019t exceed their limits. The night ends without incident. "
-    jumpTo: 20
-    isQuestion: 0
-    answers: []
-  current: 0
   answerPicked: -1
-  characterSelected: 0
   tb: {fileID: 0}
-  ch: {fileID: 0}
-  eventType: 0
-  bonus: 0
-  initial: Which friend will help in this event?
-  initialDone: 0
-  chName: Jesse

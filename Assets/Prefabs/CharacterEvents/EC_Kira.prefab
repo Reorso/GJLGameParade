@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 459222557862910164}
   - component: {fileID: -2313070533747158448}
   m_Layer: 0
-  m_Name: EC_Jesse
+  m_Name: EC_Kira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,117 +405,99 @@ MonoBehaviour:
   enableMovement: 1
   gm: {fileID: 0}
   textToDisplay:
-  - text: 'The Drunk: Jesse'
+  - text: 'The Project: Kira '
     jumpTo: 1
     isQuestion: 0
     answers: []
-  - text: You could feel the music in your chest, The strobing lights adding a frantic
-      quality to the dancing around you.
+  - text: "Kira was skimming the paper in front of her, taking in every detail. She
+      had always been a little like this, good attention to detail, it\u2019s why
+      you wanted to partner with her for this project. <br> \u201CSo, I think we
+      should organise and split the workload now, makes it way easier for us later\u201D
+      She chewed the back of her pen in thought as she planned out the assignment. "
     jumpTo: 2
     isQuestion: 0
     answers: []
-  - text: 'The crowd was crushing in on all sides but a hand around your wrist was
-      pulling you steadily towards the bar. This place was an old haunt, a regular
-      outing for you and your friends. '
-    jumpTo: 3
-    isQuestion: 0
-    answers: []
-  - text: The drinks were flowing, and the dancing grew more uninhibited as the night
-      wore on. You were buzzed, happily on your way to drunk and Jesse seemed determined
-      to keep up with you.
-    jumpTo: 4
-    isQuestion: 0
-    answers: []
-  - text: 'Tasha as per usual was posted up keeping an eye on everyone. You wished
-      she would let loose once in a while. '
+  - text: "\u201CIt\u2019s not due for like 3 weeks so I think we can do a bit at
+      a time and then once we finish one thing, we can move onto another.\u201D You
+      were never a fan of doing things early, most of the time you seemed clinically
+      incapable of it.   \u201CThe faster we get it done the more we can relax, but
+      it\u2019s up to you. As long as we get it done on time I don\u2019t mind.\u201D
+      Kira was clearly reluctant but setting your own deadlines had never worked
+      for you before. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Get more drinks
-      jumpTo: 5
-      bonus: -1
-    - text: Hit the dance floor
-      jumpTo: 7
+    - text: Organise workload
+      jumpTo: 3
       bonus: 1
-  - text: "You struggle your way to the bar, Jesse not tagging along not far behind.  
-      \u201CSame as last time?\u201D You lean into Jesse, shouting to be heard over
-      the music. They nod their head so vigorously they almost start to resemble
-      a bobblehead doll."
-    jumpTo: 6
+    - text: Figure it out later
+      jumpTo: 4
+      bonus: -1
+  - text: 'The assignment was split between the two of you and milestones for progress
+      were set. It was all very organised, nothing like your usual approach to coursework.  '
+    jumpTo: 5
     isQuestion: 0
     answers: []
-  - text: They nod their head so vigorously they almost start to resemble a bobblehead
-      doll. You begin to wonder if Jesse might just be a little more drunk than you
-      first thought.
-    jumpTo: 8
+  - text: 'So, you decided to just take each section as it comes with check-in just
+      to see where each other was at in terms of progress. '
+    jumpTo: 5
     isQuestion: 0
     answers: []
-  - text: 'You venture out onto the dance floor, the rest of the group following
-      the path you make. The DJ is good tonight, the music makes you want to move. '
-    jumpTo: 8
-    isQuestion: 0
-    answers: []
-  - text: "There\u2019s a good buzz in the group. You\u2019re here to have fun tonight.  
-      \u201CHey, we should do some shots!\u201D "
+  - text: "A week had passed. You hadn\u2019t even looked at the assignment since
+      your last meeting with Kira and she had just messaged to double check on your
+      progress. You had none to show.   \u201CAre you struggling with it, is there
+      any way I can help?\u201D Kira asked. "
     jumpTo: -1
     isQuestion: 1
     answers:
-    - text: Order shots
+    - text: Take ownership
+      jumpTo: 6
+      bonus: 1
+    - text: 'Get Kira to help '
+      jumpTo: 7
+      bonus: -1
+  - text: "\u201CHonestly I\u2019ve just been procrastinating, I\u2019m really sorry
+      I will get my section done as soon as I can.\u201D You admitted to Kira that
+      it was your own doing.   \u201COk but let me know if you don\u2019t think you
+      will hit the deadline, there isn't much left to do but I would we not be working
+      on this the night before it\u2019s due.\u201D You nodded to show your agreement."
+    jumpTo: 8
+    isQuestion: 0
+    answers: []
+  - text: "\u201CHonestly, I\u2019m kinda struggling with it\u201D you lied, you
+      had barely looked at it enough to know if it was all that complicated.   \u201CThat\u2019s
+      ok, I can take these parts which should leave the easier stuff for you, will
+      you be able to handle that?\u201D Kira had always been very sweet, and really
+      it was probably a good thing that she took the difficult parts, she would do
+      them way better. "
+    jumpTo: 8
+    isQuestion: 0
+    answers: []
+  - text: 'You had time now to begin the assignment, but you think it could wait
+      a little while, there were other things you wanted to do before sitting down
+      and doing schoolwork '
+    jumpTo: -1
+    isQuestion: 1
+    answers:
+    - text: 'Give it a couple of days '
       jumpTo: 9
       bonus: -1
-    - text: Stick to regular drinks
-      jumpTo: 11
+    - text: 
+      jumpTo: 10
       bonus: 1
-  - text: Shots seemed like the best way to keep the night going. You signal the
-      bar staff for a couple rounds of shots. A few of the others decline, Tasha
-      sends you a look of disapproval which you ignore.
-    jumpTo: 10
+  - text: 'A couple days became a week, then more. You promised Kira you would have
+      it done only to let her down at the last minute. You both had to pull an all
+      nighter to get things finished on time. The project seemed rushed and a little
+      messy. The teacher said as much in their comments, <br><br> Kira had broken
+      down crying in response. You had completely failed her. '
+    jumpTo: 30
     isQuestion: 0
     answers: []
-  - text: 'You manage to convince Jesse to help you finish the drinks off. Jesse
-      might be swaying now. '
-    jumpTo: 12
-    isQuestion: 0
-    answers: []
-  - text: "Tasha sends you a look of disapproval, some of the others in the group
-      decline the offer.   \u201CFine just normal drinks I guess.\u201D You order
-      for those wanting in on this round. Jesse begins to lean a little against the
-      bar to keep their balance. "
-    jumpTo: 12
-    isQuestion: 0
-    answers: []
-  - text: "\u201CMaybe it\u2019s time to lay off the drink for a bit, Jesse should
-      get some water\u201D Tasha always has to be the voice of reason, it can get
-      really annoying at times. "
-    jumpTo: -1
-    isQuestion: 1
-    answers:
-    - text: Encourage Jesse
-      jumpTo: 13
-      bonus: -1
-    - text: Get them water
-      jumpTo: 15
-      bonus: 1
-  - text: "\u201CDon\u2019t be such a buzzkill, Jesse\u2019s fine and having fun\u201D
-      You order another drink for them. As the night goes on you keep ordering and
-      Jesse gets more and more drunk with your encouragement. "
-    jumpTo: 14
-    isQuestion: 0
-    answers: []
-  - text: "The blue flashing lights of the ambulance were almost blinding as you
-      watched them load Jesse into the back. You can feel Tasha glaring at you, she\u2019s
-      right to be angry, you helped make this happen. You kept getting Jesse to drink
-      long after they should have stopped. Then you found them passed out in the
-      bathroom. Jesse nearly died tonight, and you were so drunk you barely remembered
-      what happened. "
-    jumpTo: 20
-    isQuestion: 0
-    answers: []
-  - text: "As annoying as Tasha\u2019s mothering could be, you figured she was probably
-      right in this case. So you ordered water for Jesse in the hopes of sobering
-      them up a little bit. The night continued, everyone had a pleasant buzz and
-      didn\u2019t exceed their limits. The night ends without incident. "
-    jumpTo: 20
+  - text: 'With a few stops and starts  you finally managed to do your side of the
+      project and submit it on time. Kira had looked pretty stressed when you last
+      saw her, so it was probably a good thing you got your act together and did
+      the work. <br><br> The mark was good, you would count this as a success. '
+    jumpTo: 30
     isQuestion: 0
     answers: []
   current: 0
@@ -527,4 +509,4 @@ MonoBehaviour:
   bonus: 0
   initial: Which friend will help in this event?
   initialDone: 0
-  chName: Jesse
+  chName: Kira
