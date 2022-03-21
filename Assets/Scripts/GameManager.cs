@@ -13,11 +13,18 @@ public class GameManager : MonoBehaviour
     bool uiFree = true;
     [SerializeField]GameObject win, lose;
     [SerializeField] TextMeshProUGUI winscreen;
+
+    [SerializeField] List<AudioClip> audios;
+    [SerializeField] AudioSource aso;
+    int a = 0;
+    bool playing;
     // Start is called before the first frame update
     void Start()
     {
         //cc = new List<CharacterCard>();
         deck.SetActive(false);
+        aso.clip = audios[a];
+        StartCoroutine(StartMusic());
     }
 
     // Update is called once per frame
@@ -94,5 +101,18 @@ public class GameManager : MonoBehaviour
         }
         print("CHARACTER ERROR");
         return new CharacterCard();
+    }
+
+    
+
+    IEnumerator StartMusic()
+    {
+        AudioSource audio = aso;
+
+        audio.PlayDelayed(3);
+        yield return new WaitForSeconds(audio.clip.length);
+        a++;
+        audio.clip = audios[a];
+        StartCoroutine(StartMusic());
     }
 }

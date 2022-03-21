@@ -367,3 +367,61 @@ Received Import Request.
   path: Assets/Material/Schyte.mat
   artifactKey: Guid(507b26858757112498f4e64baea8b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Material/Schyte.mat using Guid(507b26858757112498f4e64baea8b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f0c7f07e80a6fb36721b582e45777d') in 0.012044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.599036 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(3bff8c61db0ece047b9e37baa4161eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(3bff8c61db0ece047b9e37baa4161eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d67c9f7f33d447b56c4a6407f3f6acc') in 0.005858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.970522 seconds.
+  path: Assets/Audio/Voicelines
+  artifactKey: Guid(92a3861573b09554a8f312dafceaf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Voicelines using Guid(92a3861573b09554a8f312dafceaf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66a80075c2b05747dcaf8e9a3821361') in 0.006367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.157819 seconds.
+  path: Assets/Audio/Music
+  artifactKey: Guid(31a4bb6ff41477543a7a7dedd4e18d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music using Guid(31a4bb6ff41477543a7a7dedd4e18d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a4a990524c6870833e833d69edc4a0') in 0.005796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.744475 seconds.
+  path: Assets/Audio/Music/bad end.wav
+  artifactKey: Guid(eb311a4e24cdccb40b77ba6e7968aaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/bad end.wav using Guid(eb311a4e24cdccb40b77ba6e7968aaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9220430b42b85024678b08bd54295806') in 0.069061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/Music/loss3-2.wav
+  artifactKey: Guid(142462ff679625c43a061d7a0d63c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/loss3-2.wav using Guid(142462ff679625c43a061d7a0d63c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0c203730e83e5fc5778728119188c2') in 0.020814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Audio/Music/loss1-2.wav
+  artifactKey: Guid(110e71a102ab6054caa5de262dbf2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/loss1-2.wav using Guid(110e71a102ab6054caa5de262dbf2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d862ddad4eb471989a64c14642a32dd') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/Music/win3-2.wav
+  artifactKey: Guid(ae1b0e49ab58a074e902d6bf7f031549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/win3-2.wav using Guid(ae1b0e49ab58a074e902d6bf7f031549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654aef213e00c46aef340c08a82254fa') in 0.016768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Audio/Music/win4-2.wav
+  artifactKey: Guid(a44212afa03e01849b842553c5827072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/win4-2.wav using Guid(a44212afa03e01849b842553c5827072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cd35754607ae0ecaf19c3d46dddd84') in 0.012662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/Music/loss4-2.wav
+  artifactKey: Guid(38778349c4f6d324c838073d03fc28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/loss4-2.wav using Guid(38778349c4f6d324c838073d03fc28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd9750e4dc68d490f44384698fce9af') in 0.016883 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

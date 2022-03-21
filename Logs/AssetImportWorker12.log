@@ -167,3 +167,49 @@ Received Import Request.
   path: Assets/Material/Table.mat
   artifactKey: Guid(7781a9b3f16655640bb558ac988c640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Material/Table.mat using Guid(7781a9b3f16655640bb558ac988c640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d9628dd9abc94dca8a0575d18b169') in 0.107644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.413348 seconds.
+  path: Assets/Audio/Music/good end-2.wav
+  artifactKey: Guid(b5b12045ca4974d47a12cdfeda882463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/good end-2.wav using Guid(b5b12045ca4974d47a12cdfeda882463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ce3b1b6710dc2feea8fa8692819dea') in 0.066319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Music/loss5-2.wav
+  artifactKey: Guid(d04f4cf2923f140468c216267afcf659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/loss5-2.wav using Guid(d04f4cf2923f140468c216267afcf659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c259c2b723d19f99f0f982a24404c1') in 0.013752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Music/Intro-2.wav
+  artifactKey: Guid(9462140545edf6e49ac504ce158bae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Intro-2.wav using Guid(9462140545edf6e49ac504ce158bae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfa2f8c4c1936abfb2f637831e4218d') in 0.012227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Music/win2-2.wav
+  artifactKey: Guid(5dd26462bd642624e9a82998692788d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/win2-2.wav using Guid(5dd26462bd642624e9a82998692788d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a467eb329ba7c7ffecea3bffe37f1a') in 0.015185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/Music/loss2-2.wav
+  artifactKey: Guid(0f1d2bdb41fa6eb4d98721c886c0aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/loss2-2.wav using Guid(0f1d2bdb41fa6eb4d98721c886c0aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee558337995ceb4899f8e5378ccdbc3') in 0.013311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/Music/win5-2.wav
+  artifactKey: Guid(356b7a15e2084e546bec789c59d489fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/win5-2.wav using Guid(356b7a15e2084e546bec789c59d489fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870c67b0bcc72344eca52d094b56f5ca') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audio/Music/win1-2.wav
+  artifactKey: Guid(8ae20a082ad08d042be7aaa274a61197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/win1-2.wav using Guid(8ae20a082ad08d042be7aaa274a61197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23957b96e5dc502731272181fd47f0d3') in 0.017426 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
